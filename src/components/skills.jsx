@@ -66,7 +66,7 @@ function Skills() {
                                 key={skill}
                                 className="
                                     w-fit h-fit
-                                    text-[clamp(0.5rem,1.3vw,1.25rem)]
+                                    text-[clamp(0.75rem,1.3vw,1.25rem)]
                                 "
                             >
                                 {skill}

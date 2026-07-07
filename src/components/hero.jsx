@@ -4,12 +4,16 @@ import pfp from '../assets/pfp.png'
 
 function Hero() {
     return (
-        <div className="flex gap-[clamp(1rem,2vw,2.5rem)] rounded-[clamp(30px,5vw,68px)] bg-white shadow-[0px_4px_18.1px_rgba(0,0,0,0.2)] h-fit w-fit p-[clamp(20px,2vw,40px)] px-[clamp(30px,5vw,50px)]">
+        <div className="
+            flex gap-[clamp(1rem,2vw,2.5rem)] rounded-[clamp(30px,5vw,68px)] 
+            bg-white shadow-[0px_4px_18.1px_rgba(0,0,0,0.2)] 
+            h-fit w-fit p-[clamp(20px,2vw,40px)] px-[clamp(30px,5vw,50px)]
+        ">
             <img
                 src={pfp}
                 alt="Iwang Petra Dheerendra"
                 className="
-                w-[clamp(8rem,10vw,15rem)] h-auto object-cover
+                w-[clamp(6.5rem,10vw,15rem)] h-auto object-cover
                 pr-[clamp(1rem,2vw,2.5rem)] border-r-2 border-[#002446]
                 "
             />
